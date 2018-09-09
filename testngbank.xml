@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BankBazzar">
+<parameter name="url" value="https://www.bankbazaar.com/"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+         <class name="bankbazzarTestcases.TC001_Bank"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- BankBazzar -->
